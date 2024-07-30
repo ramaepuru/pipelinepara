@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent node1
     parameters {
         string(name:'Greeting', defaultValue:'Hello', description:'How should I greet the world?')
     }
